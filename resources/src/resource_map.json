@@ -2,6 +2,11 @@
  "friendlyVersion": "0.1",
  "versionDefName": "APP_RESOURCES",
  "media": [
+	 {
+        "type": "png",
+        "defName": "IMAGE_MENU_ICON",
+        "file": "images/menu_icon_pebble4.png"
+	},
 	 {"type":"font",
       "defName":"FONT_SANSATION_LIGHT_21",
       "file":"fonts/sansation/Sansation_Light_21.ttf"

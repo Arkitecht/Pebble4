@@ -9,7 +9,7 @@ PBL_APP_INFO(MY_UUID,
              "Pebble4", 
 			 "Aaron Rubin (aaron@arkitech.net)",
              1, 0, /* App version */
-             DEFAULT_MENU_ICON,
+             RESOURCE_ID_IMAGE_MENU_ICON,
              APP_INFO_STANDARD_APP);
 
 // Can be used to distinguish between multiple timers in your app
