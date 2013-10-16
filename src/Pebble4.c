@@ -333,8 +333,8 @@ void drawPiece(GContext* ctx,int col,int row,int player) {
 	graphics_context_set_stroke_color(ctx, GColorBlack);
 	graphics_context_set_fill_color(ctx, GColorBlack);
 	
-	if ( player ) {
-		y += STEP_SIZE;
+	
+	if ( player ) {		
 		graphics_draw_circle(ctx, GPoint(x, y), PIECE_SIZE);		
 	} else {
 		graphics_fill_circle(ctx, GPoint(x, y), PIECE_SIZE);
